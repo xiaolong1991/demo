@@ -66,14 +66,14 @@ $(document).ready(function(e) {
 		}
 	});
 	//点击跳转
-	$(".p5-8 img").click(function(){
-		$(".p5-5").removeClass("fadeInUp").addClass("fadeOutUp");
-		$(".p5-6").removeClass("fadeInLeft").addClass("fadeOutRight");
-		$(".p5-7").removeClass("fadeInRight").addClass("fadeOutLeft");	
-		setTimeout(function(){
-			location.href="http://campus.51job.com/babeltime/position.html";
-		},1000);	
-	})
+// 	$(".p5-8 img").click(function(){
+// 		$(".p5-5").removeClass("fadeInUp").addClass("fadeOutUp");
+// 		$(".p5-6").removeClass("fadeInLeft").addClass("fadeOutRight");
+// 		$(".p5-7").removeClass("fadeInRight").addClass("fadeOutLeft");	
+// 		setTimeout(function(){
+// 			location.href="http://campus.51job.com/babeltime/position.html";
+// 		},1000);	
+// 	})
 	
     //动画补丁
 	setTimeout(function(){
